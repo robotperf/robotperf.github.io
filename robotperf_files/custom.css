@@ -1,0 +1,249 @@
+/* ---------------------------------------------------
+CUSTOM GLOBAL
+---------------------------------------------------*/
+
+
+/* varios */
+
+.img-responsive {
+    max-width: 100%
+}
+
+.icon-report {
+    max-height: 80px;
+}
+
+.icon-question {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-lupa {
+    width: 60px;
+    height: 60px;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+.verde-claro {
+    color: #529d86;
+}
+
+.nomargin-tb {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.nopadding-tb {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.icon-block-h3 {
+    text-align: center;
+}
+
+.icon-block-h3 img {
+    max-width: 60px;
+}
+
+.icon-block-h3 h3 {
+    margin-top: 1.3em;
+    color: #4f9d86;
+    font-size: 1.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.img-block-text {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.img-block-text img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.img-block-text h4 {
+    margin-bottom: 1em;
+}
+
+.seccion {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.seccion .row-titulo {
+    margin-bottom: 1em;
+}
+
+.seccion p {
+    font-size: 1em;
+    color: #1c1c1c;
+    line-height: 1.3em;
+}
+
+.this-is-how-box {
+    text-align: center;
+    color: #1b4652;
+    padding: 0 .7em;
+    margin-bottom: 2em;
+}
+
+.this-is-how-box h4 {
+    margin-bottom: 4px !important;
+    line-height: .9em;
+    font-size: 1.1em !important;
+    color: black;
+}
+
+.this-is-how-box h5 {
+    color: black;
+    margin-bottom: 0;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.this-is-how-box p {
+    font-weight: 300;
+    font-size: 0.9em !important;
+}
+
+.this-is-how-box p span {
+    color: #4f9d86;
+}
+
+.this-is-how-box hr {
+    display: inline-block;
+    width: 30px;
+    height: 5px;
+    background-color: #519c85;
+    margin-bottom: 1em;
+}
+
+
+/* PIE DE CONTACTO (comun a varias páginas - enlace siple y doble)*/
+
+.any-question {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 6em;
+}
+
+.any-question h2 {
+    color: #1c1c1c;
+    font-size: 3em;
+    margin-bottom: 1.3em;
+}
+
+.any-question p {
+    color: #1c1c1c;
+    font-size: 1.2em;
+    max-width: 50em;
+    margin: auto;
+    margin-top: 1.5em;
+    font-weight: 500;
+    line-height: 1.3em;
+    margin-bottom: 3.5em;
+}
+
+.any-question a.btn {
+    margin-bottom: 1em;
+}
+
+a.iconos-footer {
+    margin-right: 8px;
+    margin-top: 40px;
+}
+
+.sticono-footer {
+    fill: #4d4cf5;
+}
+
+a.iconos-footer:hover .sticono-footer {
+    fill: #ffffff;
+}
+
+.sticono-footer-green {
+    fill: #ffffff;
+}
+
+a.iconos-footer:hover .sticono-footer-green {
+    fill: #4d4cf5;
+}
+
+a.iconos-footer.anegro:hover .sticono-footer {
+    fill: #000;
+}
+
+a.nav-icon {
+    opacity: 0.6
+}
+
+.sticono-header {
+    fill: #BEBFC0;
+}
+
+a.nav-icon:hover {
+    opacity: 1
+}
+
+a.nav-icon:hover .sticono-header {
+    fill: #4d4cf5;
+}
+
+
+/* Media Queries - Responsive */
+
+
+/* col-xl - Large devices Desktops (≥1200px) */
+
+@media(min-width:1200px) {
+    .this-is-how-box {
+        text-align: left;
+        border-left: 5px solid #519c85;
+    }
+    .this-is-how-box hr {
+        display: none;
+    }
+}
+
+
+/* col-lg - Medium devices Desktops (≥992px) */
+
+@media only screen and (min-width: 993px) and (max-width: 1199px) {
+    .this-is-how-box {
+        text-align: left;
+        border-left: 5px solid #519c85;
+    }
+    .this-is-how-box hr {
+        display: none;
+    }
+}
+
+
+/* col-md - Small devices Tablets (≥768px) */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {}
+
+
+/*  col-sm - Extra small devices Phones (<768px) */
+
+@media only screen and (max-width: 767px) {}
+
+
+/*  xs - en caso de ser necesario */
+
+@media only screen and (max-width: 479px) {
+    .any-question h2 {
+        font-size: 2.6em;
+    }
+}
+
+
+/* ---------------------------------------------------
+FIN CUSTOM
+---------------------------------------------------*/

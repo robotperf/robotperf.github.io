@@ -732,7 +732,8 @@ ul.lista li u {
 }
 
 ul.lista li:before {
-    content: "\f138";
+    /* content: "\f138"; */
+    content: ">";
     /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;

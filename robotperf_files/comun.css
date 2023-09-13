@@ -13,8 +13,8 @@ INICIO GLOBAL
 
 @font-face {
     font-family: "Gordita";
-    src: url('fonts/Gordita/Gordita-Regular.eot');
-    src: url("fonts/Gordita/Gordita-Regular.woff") format("woff"), url("fonts/Gordita/Gordita-Regular.woff2") format("woff2");
+    src: url('../fonts/Gordita/Gordita-Regular.eot');
+    src: url("../fonts/Gordita/Gordita-Regular.woff") format("woff"), url("../fonts/Gordita/Gordita-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -22,8 +22,8 @@ INICIO GLOBAL
 
 @font-face {
     font-family: "Gordita-Bold";
-    src: url('fonts/Gordita/Gordita-Bold.eot');
-    src: url("fonts/Gordita/Gordita-Bold.woff") format("woff"), url("fonts/Gordita/Gordita-Bold.woff2") format("woff2");
+    src: url('../fonts/Gordita/Gordita-Bold.eot');
+    src: url("../fonts/Gordita/Gordita-Bold.woff") format("woff"), url("../fonts/Gordita/Gordita-Bold.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -31,8 +31,8 @@ INICIO GLOBAL
 
 @font-face {
     font-family: "Gordita-Black";
-    src: url('fonts/Gordita/Gordita-Black.eot');
-    src: url("fonts/Gordita/Gordita-Black.woff") format("woff"), url("fonts/Gordita/Gordita-Black.woff2") format("woff2");
+    src: url('../fonts/Gordita/Gordita-Black.eot');
+    src: url("../fonts/Gordita/Gordita-Black.woff") format("woff"), url("../fonts/Gordita/Gordita-Black.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -40,8 +40,8 @@ INICIO GLOBAL
 
 @font-face {
     font-family: "Gordita-Light";
-    src: url('fonts/Gordita/Gordita-Light.eot');
-    src: url("fonts/Gordita/Gordita-Light.woff") format("woff"), url("fonts/Gordita/Gordita-Light.woff2") format("woff2");
+    src: url('../fonts/Gordita/Gordita-Light.eot');
+    src: url("../fonts/Gordita/Gordita-Light.woff") format("woff"), url("../fonts/Gordita/Gordita-Light.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -49,8 +49,8 @@ INICIO GLOBAL
 
 @font-face {
     font-family: "Gordita-Medium";
-    src: url('fonts/Gordita/Gordita-Medium.eot');
-    src: url("fonts/Gordita/Gordita-Medium.woff") format("woff"), url("fonts/Gordita/Gordita-Medium.woff2") format("woff2");
+    src: url('../fonts/Gordita/Gordita-Medium.eot');
+    src: url("../fonts/Gordita/Gordita-Medium.woff") format("woff"), url("../fonts/Gordita/Gordita-Medium.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -58,7 +58,7 @@ INICIO GLOBAL
 
 @font-face {
     font-family: "SourceCodePro-Regular";
-    src: url(fonts/SourceCodePro/SourceCodePro-Regular.ttf);
+    src: url(../fonts/SourceCodePro/SourceCodePro-Regular.ttf);
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -66,7 +66,7 @@ INICIO GLOBAL
 
 @font-face {
     font-family: "Poppins-Light";
-    src: url(fonts/Poppins/Poppins-Light.ttf);
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -732,8 +732,7 @@ ul.lista li u {
 }
 
 ul.lista li:before {
-    /* content: "\f138"; */
-    content: ">";
+    content: "\f138";
     /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;
@@ -779,7 +778,7 @@ ul.lista li:before {
 .transition-GtoW {
     background-repeat: repeat-x;
     background-position: center center;
-    background-image: url('img/lineas-transicion-212121.jpg');
+    background-image: url('../img/lineas-transicion-212121.jpg');
     height: 73px;
 }
 
@@ -789,7 +788,7 @@ ul.lista li:before {
 .transition-WtoG {
     background-repeat: repeat-x;
     background-position: center center;
-    background-image: url('img/lineas-transicion-f8f8f9.jpg');
+    background-image: url('../img/lineas-transicion-f8f8f9.jpg');
     height: 73px;
 }
 
@@ -799,7 +798,7 @@ ul.lista li:before {
 .transition-BtoG {
     background-repeat: repeat-x;
     background-position: center center;
-    background-image: url('img/lineas-transicion-footer-negro-gris.jpg');
+    background-image: url('../img/lineas-transicion-footer-negro-gris.jpg');
     height: 73px;
 }
 
@@ -809,7 +808,7 @@ ul.lista li:before {
 .transition-footer {
     background-repeat: repeat-x;
     background-position: center center;
-    background-image: url('img/lineas-transicion-footer-000000.jpg');
+    background-image: url('../img/lineas-transicion-footer-000000.jpg');
     height: 73px;
 }
 
@@ -821,7 +820,7 @@ ul.lista li:before {
     padding-left: 25px;
     background-repeat: no-repeat;
     background-position: left top;
-    background-image: url(img/sombra-lineas.png);
+    background-image: url(../img/sombra-lineas.png);
     background-size: contain;
     float: left;
     /* max-width: 550px; */
@@ -831,7 +830,7 @@ ul.lista li:before {
     padding-left: 0px;
     padding-right: 25px;
     background-position: right top;
-    background-image: url(img/sombra-lineas-dcha.png);
+    background-image: url(../img/sombra-lineas-dcha.png);
 }
 
 
@@ -866,7 +865,7 @@ ul.lista li:before {
 }
 
 .cabecera-interior.cabecera-servicios {
-    background-image: url(img/fondo-servicios.png);
+    background-image: url(../img/fondo-servicios.png);
     background-color: #000;
     background-repeat: no-repeat;
     background-position: center center;
@@ -879,7 +878,7 @@ ul.lista li:before {
 }
 
 .cabecera-interior.cabecera-about {
-    background-image: url(img/company-intro.jpg);
+    background-image: url(../img/company-intro.jpg);
     background-color: #000;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -893,8 +892,8 @@ ul.lista li:before {
 }
 
 .cabecera-interior.cabecera-robotcore {
-    /* background-image: url(img/robotcore-intro.jpg); */
-    background-image: url(img/robotcore-intro2.jpg);
+    /* background-image: url(../img/robotcore-intro.jpg); */
+    background-image: url(../img/robotcore-intro2.jpg);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: contain;
@@ -949,7 +948,7 @@ h2.titulo-robotcore span {
 }
 
 .col-imgdoc {
-    background-image: url(img/visual-documentation_support.jpg);
+    background-image: url(../img/visual-documentation_support.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
